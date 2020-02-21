@@ -9,7 +9,7 @@
         "milestonePage":[
           {
             "id": 5362,
-            "status":1,
+            "status":2,
             "title":"Verify your bank card",
             "description":"Confirm owner of your linked card"
           },
@@ -21,7 +21,7 @@
           },
           {
             "id": 5366,
-            "status": 3,
+            "status": 1,
             "title":"Take your Selfie",
             "description":"Your ID and selfie photo ensures its you"
           },
