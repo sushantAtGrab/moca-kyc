@@ -35,41 +35,6 @@
       },
     "error":null
   },
-  "v3_consumer_milestones_all_not_done": {
-    "code":2000,
-    "data":{
-        "header":"Get a Verified Moca Wallet",
-        "description":"We need to verify your account to prevent misuse with your profile. This should only take about 5 minutes",
-        "footerText":"By continuing I agree to comply with Moca’s Privacy laws and Terms & Conditions",
-        "milestonePage":[
-          {
-            "id": 5362,
-            "status":1,
-            "title":"Verify your bank card",
-            "description":"Confirm owner of your linked card"
-          },
-          {
-            "id": 5364,
-            "status": 1,
-            "title":"Take your ID Photo",
-            "description":"Your ID and selfie photo ensures its you"
-          },
-          {
-            "id": 5366,
-            "status": 1,
-            "title":"Take your Selfie",
-            "description":"Your ID and selfie photo ensures its you"
-          },
-          {
-            "id": 5368,
-            "status": 1,
-            "title":"Complete your personal Info",
-            "description":"Take a photo of your ID to ensure its you"
-          }
-        ]
-      },
-    "error":null
-  },
   "v3_consumer_milestones_all_done": {
     "code":2000,
     "data":{
@@ -138,6 +103,31 @@
           }
         ]
       },
+    "error":null
+  },
+  "v3_consumer_milestones_poiDetails": {
+    "code": 2001,
+    "data": {
+      "linkedCardDetails": null,
+      "poiDetails": {
+          "idType": 1,
+          "idNumber": "7656789765",
+          "rejectionDetails": {
+              "reasons": [
+                  {
+                      "rejectionReasonCategory": 2,
+                      "rejectionReasonSubCategory": 17
+                  },
+                  {
+                      "rejectionReasonCategory": 2,
+                      "rejectionReasonSubCategory": 7
+                  }
+               ],
+          }
+      },
+      "selfieDetails": null,
+      "piDetails": null
+    },
     "error":null
   }
 }

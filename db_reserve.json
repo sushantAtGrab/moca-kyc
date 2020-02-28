@@ -243,7 +243,30 @@
         ]
       },
     "error":null
+  },
+  "v3_consumer_milestones_poiDetails": {
+    "code": 2001,
+    "data": {
+      "linkedCardDetails": null,
+      "poiDetails": {
+          "idType": 1,
+          "idNumber": "7656789765",
+          "rejectionDetails": {
+              "reasons": [
+                  {
+                      "rejectionReasonCategory": 2,
+                      "rejectionReasonSubCategory": 17
+                  },
+                  {
+                      "rejectionReasonCategory": 2,
+                      "rejectionReasonSubCategory": 7
+                  }
+               ],
+          }
+      },
+      "selfieDetails": null,
+      "piDetails": null
+    },
+    "error":null
   }
-
-
 }
