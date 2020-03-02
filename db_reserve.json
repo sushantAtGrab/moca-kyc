@@ -268,5 +268,26 @@
       "piDetails": null
     },
     "error":null
+  },
+  "v3_dropdown": {
+    "Resources": {
+      "IDType": [
+        {
+            "ID": 1,
+            "Label": "National ID new",
+            "Description": "",
+        },
+        {
+            "ID": 2,
+            "Label": "National ID old",
+            "Description": "",
+        },
+        {
+            "ID": 2,
+            "Label": "Passport",
+            "Description": "",
+        }
+      ]
+    }
   }
 }
